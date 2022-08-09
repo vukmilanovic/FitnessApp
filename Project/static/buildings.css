@@ -1,0 +1,42 @@
+.map {
+	width: 800px;
+    height: 500px;
+    margin-left: 2cm;
+}
+
+.encapsulate{
+    margin: auto;
+    width: 50%;
+}
+
+.box {
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.inner {
+    float: left;
+}
+
+img {
+    float: left;
+    width: 200;
+    height: 150;
+}
+
+.showBuildingLogo {
+	width: 50%;
+	height: 20%;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.geoloc {
+    color: gray;
+}
+
+.clear {
+	clear: both;
+}

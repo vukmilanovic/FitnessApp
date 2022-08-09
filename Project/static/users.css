@@ -1,0 +1,286 @@
+.field {
+    width: 300;
+    caret-color: black;
+}
+
+.combo {
+    vertical-align: middle;
+}
+
+.spInfo {
+    width: 500px;
+    height: 600px;
+    margin-left: 1cm;
+}
+
+.comboBox {
+    width: 300;
+}
+
+.headerElements {
+    cursor: pointer;
+}
+
+.readonly {
+    width: 300;
+    cursor: default;
+    caret-color: transparent;
+}
+
+.profileSettingsFields {
+    margin-top: 1cm;
+    margin-left: 0.6cm;
+}
+
+.verticalInline {
+    vertical-align: middle;
+}
+
+.selectedRow {
+    background-color: silver;
+}
+
+.table{
+    margin-top: 1cm;
+    width: 1200px;
+    max-height: 400px;
+}
+
+.tableComment {
+    width: 700px;
+    max-height: 400px;
+}
+
+.address { 
+    display: block;
+    font-style: normal;
+} 
+
+.textAreaComment {
+    width: 350px;
+    margin-left: 1.5cm;
+    font-size: 14;
+    height: 400px;
+}
+
+.textArea {
+    width: 300px;
+    font-size: 14;
+    height: 400px;
+}
+
+.commentDiv {
+    justify-content: center;
+    display: flex;
+}
+
+.parComments {
+    margin-bottom: 0.5cm;
+    font-size: medium;
+}
+
+.comment {
+    clear: both;
+    width: 700px;
+    margin-top: 0.5cm;
+    background: whitesmoke;
+    caret-color: transparent;
+}
+
+.textAreaSP {
+    margin-top: 4cm;
+    width: 400px;
+    font-size: 14;
+    height: 150px;
+}
+
+a {
+    font-weight: normal;
+    color: black;
+  }
+  
+a.active {
+    font-weight: bold;
+    color: black;
+}
+
+.tableRow:hover {
+    background-color: red;
+    box-shadow: none;
+}
+
+.inlineElements {
+    display: inline-block;
+}
+
+.inLine {
+    float: left;
+}
+
+.blockContainer {
+    text-align: center;
+}
+
+.tableForm {
+    margin-top: 2cm;
+    caret-color: transparent;
+    cursor: default;
+    user-select: none;
+}
+
+.tableForm::selection{
+    background-color: transparent;
+}
+
+.background {
+    background-color: silver;
+}
+
+.title {
+    margin-left: 3%;
+    cursor: default;
+    caret-color: transparent;
+    user-select: none;
+}
+
+.form {
+    margin-top: 5%;
+    caret-color: transparent;
+    user-select: none;
+}
+
+.form::selection {
+    background-color: white;
+}
+
+#page {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.radio {
+    margin-right: 3%;
+}
+
+.radioField {
+    margin-right: 1cm;
+}
+
+.buttonEdit {
+    margin-top: 2cm;
+    margin-left: 7cm;
+    width: 150;
+    height: 35;
+    background-color: #383838;
+    border-color: #383838;
+}
+
+.comboWorkout {
+    font-size: medium;
+}
+
+.promoButton {
+    width: 150;
+    height: 35;
+    background-color: #383838;
+    border-color: #383838;
+    color: darkgrey;
+    border-radius: 2;
+    margin-top: 2cm;
+    margin-left: 0.5cm;
+}
+
+.commentButton {
+    width: 150;
+    height: 35;
+    background-color: #383838;
+    border-color: #383838;
+    color: darkgrey;
+    border-radius: 2;
+}
+
+.managerButton {
+    width: 240;
+    height: 35;
+    background-color: #383838;
+    border-color: #383838;
+    color: darkgrey;
+    border-radius: 2;
+}
+
+.managerButton:hover {
+    background-color: darkgrey;
+    color: #383838;
+}
+
+.managerButton:focus {
+    background-color: #383838;
+    color: white;
+    border-color: #383838;
+}
+
+.commentButton:hover {
+    background-color: darkgrey;
+    color: #383838;
+}
+
+.commentButton:focus {
+    background-color: #383838;
+    color: white;
+    border-color: #383838;
+}
+
+.payButton {
+    width: 150;
+    height: 35;
+    background-color: #383838;
+    border-color: #383838;
+    color: darkgrey;
+    border-radius: 2;
+    margin-left: 0.6cm;
+    margin-top: 2cm;
+}
+
+.payForm {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-stretch: expanded;
+}
+
+.payButton:hover {
+    background-color: darkgrey;
+    color: #383838;
+}
+
+.payButton:focus {
+    background-color: #383838;
+    color: white;
+    border-color: #383838;
+}
+
+.button {
+    margin-top: 1.5%;
+    width: 150;
+    height: 35;
+    margin-left: 7%;
+    background-color: #383838;
+    border-color: #383838;
+}
+
+.addPractice {
+    caret-color: transparent;
+    clear:both;
+}
+
+.button:hover {
+    background-color: darkgrey;
+    color: #383838;
+}
+
+.button:focus {
+    background-color: #383838;
+    color: white;
+    border-color: #383838;
+}

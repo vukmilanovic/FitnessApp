@@ -1,0 +1,20 @@
+#radius {
+    border-radius: 0%;
+}
+.hide {
+    display: none;
+}
+.listE {
+    color: darkgrey;
+    vertical-align: middle;
+    cursor: pointer;
+    caret-color: transparent;
+    padding: 0.5cm;
+}
+.listE::selection{
+    background-color: transparent;
+}
+.listE:hover {
+    background-color: black;
+    color: white;
+}
